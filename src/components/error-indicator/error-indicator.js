@@ -6,9 +6,9 @@ import icon from "./error-indicator.png";
 const ErrorIndicator = () => {
   return (
     <div className="error-indicator">
-      <img src={icon} alt="error icon" />
+      <img src={icon} alt="error icon" className="error-man" />
       <span className="boom">Sorry!</span>
-      <span>something has gone terribly wrong</span>
+      <span>something is wrong</span>
     </div>
   );
 };
