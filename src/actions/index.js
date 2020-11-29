@@ -5,4 +5,4 @@ const booksLoaded = (newBooks) => {
   };
 };
 
-export default { booksLoaded };
+export { booksLoaded };
