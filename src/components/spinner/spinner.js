@@ -3,11 +3,14 @@ import React from "react";
 
 const Spinner = () => {
   return (
-    <div class="loadingio-spinner-pulse-lsjlsw19b">
-      <div class="ldio-yge8aum9u4">
-        <div></div>
-        <div></div>
-        <div></div>
+    <div class="loadingio-spinner-magnify-kz9qnycw80l">
+      <div class="ldio-dh8cmrsh2tf">
+        <div>
+          <div>
+            <div></div>
+            <div></div>
+          </div>
+        </div>
       </div>
     </div>
   );
