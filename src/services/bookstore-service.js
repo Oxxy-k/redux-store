@@ -27,9 +27,13 @@ export default class BookstoreService {
     },
   ];
   getBooks() {
-    return new Promise((resolve) => {
+    return new Promise((resolve, reject) => {
       setTimeout(() => {
-        resolve(this.data);
+        if (Math.random() > 0.8) {
+          reject(new Error("Oops, your random number is more then 0.8 =)"));
+        } else {
+          resolve(this.data);
+        }
       }, 1000);
     });
   }
